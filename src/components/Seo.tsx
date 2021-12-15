@@ -3,14 +3,13 @@ import { useRouter } from 'next/router';
 
 import { openGraph } from '@/lib/helper';
 
-// !STARTERCONF Change these default meta
 const defaultMeta = {
-  title: 'Next.js + Tailwind CSS + TypeScript Starter',
-  siteName: 'Next.js + Tailwind CSS + TypeScript Starter',
+  title: 'DANCE.MENU',
+  siteName: 'DANCE.MENU',
   description:
-    'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
-  url: 'https://tsnext-tw.thcl.dev',
-  image: 'https://theodorusclarence.com/favicon/large-og.jpg',
+    'A Progressive Web App to organize dance classes, socials and festivals.',
+  url: 'https://dance-menu.vercel.app',
+  image: 'https://dance-menu.vercel.app/favicon/ms-icon-310x310.png',
   type: 'website',
   robots: 'follow, index',
 };
@@ -94,7 +93,7 @@ type Favicons = {
   type?: string;
 };
 
-// !STARTERCONF this is the default favicon, you can generate your own from https://www.favicon-generator.org/
+// you can generate your own from https://www.favicon-generator.org/
 // then replace the whole /public/favicon folder
 const favicons: Array<Favicons> = [
   {

@@ -7,10 +7,6 @@ import CustomLink from '@/components/links/CustomLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
 
-// !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
-// Before you begin editing, follow all comments with `STARTERCONF`,
-// to customize the default configuration.
-
 export default function HomePage() {
   return (
     <Layout>
@@ -31,8 +27,8 @@ export default function HomePage() {
               </ArrowLink>
             </p>
 
-            <ButtonLink className='mt-6' href='/components' variant='light'>
-              See all components
+            <ButtonLink className='mt-6' href='/404' variant='light'>
+              Go to 404 page
             </ButtonLink>
 
             <UnstyledLink
